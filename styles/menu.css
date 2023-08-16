@@ -29,22 +29,12 @@ h1,h2,h3{
     font-size: 28px;
 }
 
-q{
-    font-size: 20px;
-}
-
 header{
     display: flex;
     margin: 10px auto 0px auto;
     padding: 5px;
     width: 85%;
     background-color: rgba(0, 0, 0, 0.5);
-}
-
-
-
-#unset{
-    background-color: transparent;
 }
 
 .header-left{
@@ -85,57 +75,30 @@ header{
 .container{
     display: flex;
     width: 85%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
-.content{
+.menu-container{
     background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
     padding: 15px;
-    width: 40%;
-    margin:20px 10px 10px 10px;
+    width: 100%;
+    padding-top: 60px;
     line-height: 1.5;
 }
 
-.content > q{
-    border-bottom: 1px solid white;
-}
-
-.content > p{
+.menu-item:hover{
+    transition: 400ms;
+    flex-grow: 1;
+    font-size: 30px;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-}
-
-.content > h2{
-    margin-top: 20px;
-}
-
-.content > h3{
-    margin-top: 60px;
-    text-align: center;
-    border-bottom: 1px solid white;
-}
-
-.reserve{
-    width: 40%;
-    margin: 40px auto;
-    border-bottom: 1px solid white;
-}
-
-.reserve > span{
-    display: block;
-    text-align: center;
-}
-
-.food-illustration{
-    display: flex;
-    flex-wrap:wrap;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 60%;
-    margin: 10px;
-    padding: 10px;
-}
-
-.menu-item{
-    margin: auto;
-
 }
