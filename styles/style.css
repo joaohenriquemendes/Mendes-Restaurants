@@ -68,16 +68,17 @@ header,p{
 
 
 .header-right{
-    width: 60%;
+    
 }
 
 .menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 250px;
+    width: 30%;
     height: 100%;
-    margin: auto 10px 0px auto;
+    
+    margin: auto 15px auto auto ;
 }
 
 .menu > a{
